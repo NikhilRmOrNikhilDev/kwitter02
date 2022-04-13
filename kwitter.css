@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html, body{
+    background: #0096FF;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+.navbar-brand, .navbar-nav button{
+    text-decoration: none;
+    color: #0096FF !important;
+    font-weight: 500;
+}
+.navbar-nav a{
+    margin: 0 5px;
+    color: #0095ffb9 !important;
+}
+.navbar-nav .nav-link.active{
+    color: #0096FF !important;
+}
+.nav-link:hover, .nav-link.active:hover{
+    background-color: #0096FF;
+    color: white !important;
+    border-radius: 5px;
+}
+.navbar{
+    background-color: white;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+.navbar-brand{
+    text-align: center;
+}
+@media (max-width: 868px) {
+    .navbar-brand{
+        margin-left: 50px;
+    }
+    .nav-link:hover, .nav-link.active:hover{
+        background: none !important;
+        color: #0096FF !important;
+    }
+    .form-control{
+        width: 50%;
+    }
+    .hd2{
+        margin: auto !important;
+    }
+}
+.navbar-nav button{
+    background-color: #0096FF;
+    color: white !important ;
+}
+#Home{
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2),
+}
+.input{
+    margin: 0;
+    display: none;
+}
+.hide{
+    display: none;
+}
+.groups-name{
+    float: left;
+}
+.groups-icon{
+    float: right;
+}
